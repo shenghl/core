@@ -1388,6 +1388,7 @@ $CONFIG = [
 'filesystem_check_changes' => 0,
 
 /**
+ * Define unsuccessful mountpoint rename attempts
  * This config value avoids infinite loops for seldom cases where a file renaming
  * conflict between different share backends could occur.
  * The value defines how many unsuccessful mountpoint rename attempts are allowed.
