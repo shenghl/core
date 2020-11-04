@@ -1,4 +1,4 @@
-@api @skipOnOcis-OC-Storage
+@api
 Feature: propagation of etags when creating folders
 
   Background:

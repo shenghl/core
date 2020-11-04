@@ -1,4 +1,4 @@
-@api @skipOnOcis-OC-Storage
+@api
 Feature: propagation of etags when moving files or folders
 
   Background:
