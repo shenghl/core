@@ -7,6 +7,7 @@ Feature: propagation of etags when uploading data
     And parameter "shareapi_auto_accept_share" of app "core" has been set to "no"
     And user "Alice" has created folder "/upload"
 
+  @skipOnOcis-OC-Storage
   Scenario Outline: uploading a file inside a folder changes its etag
     Given using <dav_version> DAV path
     And user "Alice" has stored etag of element "/"

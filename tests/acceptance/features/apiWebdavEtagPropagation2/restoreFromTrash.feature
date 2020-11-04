@@ -1,4 +1,4 @@
-@api
+@api @skipOnOcis-OC-Storage
 Feature: propagation of etags when restoring a file or folder from trash
 
   Background:
